@@ -1,3 +1,5 @@
+// PRACTICE PROGRAM TO UNDERSTAND ARRAYS AS AN ABSTRACT DATA TYPE
+
 #include<stdio.h>
 #include<stdlib.h>
 
