@@ -1,7 +1,7 @@
 // PRACTICE PROGRAM TO UNDERSTAND ARRAYS AS AN ABSTRACT DATA TYPE
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct myArray
 {
@@ -10,7 +10,8 @@ struct myArray
     int *ptr;
 };
 
-void createArray(struct myArray * a, int tSize, int uSize){
+void createArray(struct myArray *a, int tSize, int uSize)
+{
     // (*a).total_size = tSize;
     // (*a).used_size = uSize;
     // (*a).ptr = (int *)malloc(tSize * sizeof(int));
@@ -20,14 +21,16 @@ void createArray(struct myArray * a, int tSize, int uSize){
     a->ptr = (int *)malloc(tSize * sizeof(int));
 }
 
-void show(struct myArray *a){
+void show(struct myArray *a)
+{
     for (int i = 0; i < a->used_size; i++)
     {
         printf("%d\n", (a->ptr)[i]);
     }
 }
 
-void setVal(struct myArray *a){
+void setVal(struct myArray *a)
+{
     int n;
     for (int i = 0; i < a->used_size; i++)
     {
@@ -35,10 +38,10 @@ void setVal(struct myArray *a){
         scanf("%d", &n);
         (a->ptr)[i] = n;
     }
-    
 }
 
-int main(){
+int main()
+{
     struct myArray marks;
     createArray(&marks, 10, 2);
     printf("We are running setVal now\n");
