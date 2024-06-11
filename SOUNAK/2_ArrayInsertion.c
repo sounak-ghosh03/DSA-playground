@@ -30,7 +30,7 @@ int indInsertion(int arr[], int size, int element, int capacity, int index)
 
 int main()
 {
-    int arr[10], size=5, element, index, i;
+    int arr[10], size = 5, element, index, i;
     printf("Enter the elements of array\n");
     for (i = 0; i < size; i++)
     {
