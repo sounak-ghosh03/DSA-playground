@@ -1,3 +1,4 @@
+// PRACTICE PROGRAM TO UNDERSTAND THE CONCEPT OF DOUBLY LINKED LIST
 
 #include <stdio.h>
 #include <stdlib.h>
