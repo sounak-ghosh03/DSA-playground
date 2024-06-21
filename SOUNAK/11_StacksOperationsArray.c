@@ -1,3 +1,5 @@
+// UNDERSTAND THE STACK DATA TYPE AND ITS OPERATIONS USING ARRAYS
+
 #include <stdio.h>
 #include <stdlib.h>
 
