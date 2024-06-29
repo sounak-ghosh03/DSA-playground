@@ -1,3 +1,5 @@
+// PRACTICE PROGRAM TO UNDERSTAND THE CONCEPTS AND APPLIACATION OF THE QUEUE DATA STRUCTURE 
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -82,8 +84,8 @@ int main()
     {
         printf("Queue is full\n");
     }
-        printf("Dequeuing element %d\n", dequeue(&q));
-    printf("Dequeuing element %d\n", dequeue(&q)); 
+    printf("Dequeuing element %d\n", dequeue(&q));
+    printf("Dequeuing element %d\n", dequeue(&q));
 
     return 0;
 }
